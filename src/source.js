@@ -1,0 +1,1 @@
+export const API = "https://number-guessing-game.onrender.com"
