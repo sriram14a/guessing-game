@@ -75,7 +75,7 @@ function App() {
     if (guess >= 14) {
       setDisable(true);
     }
-    if (result.every((val) => val === result[0])) {
+    if (result.every((val) => val === "+")) {
       setShow(!show);
       setDisable(true);
 
@@ -113,19 +113,19 @@ function App() {
       <br />
       <div>
         <button
+          className="newgame-button"
+          onClick={() => newGame()}
+          type="submit"
+        >
+          START NEW GAME
+        </button>
+        <button
           disabled={disable}
           className="submit-button"
           onClick={() => handlSubmit(user.name)}
           type="submit"
         >
           SUBMIT
-        </button>
-        <button
-          className="newgame-button"
-          onClick={() => newGame()}
-          type="submit"
-        >
-          START NEW GAME
         </button>
       </div>
       <div>

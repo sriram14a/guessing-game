@@ -30,8 +30,6 @@ export function Winner() {
   
   useEffect(() => handleWinner(), [winner]);
 
-
- console.log(Top);
   return (
     <div>
       <div>

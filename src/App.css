@@ -1,4 +1,4 @@
-.body{
+.body {
   background-image: url("https://static.vecteezy.com/system/resources/previews/005/217/222/original/gaming-background-blue-and-purple-with-element-vector.jpg");
   height: 100vh;
   background-size: cover;
@@ -9,48 +9,55 @@
   align-items: center;
   flex-direction: column;
 }
-.input{
+.input {
   width: 400px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
-.submit-button{
+.submit-button {
   width: 100px;
   padding: 10px;
   border-radius: 10px;
+  font-weight: 500;
 }
-.newgame-button{
+.newgame-button {
   margin: 10px;
   width: 200px;
   padding: 10px;
   border-radius: 10px;
+  background-color: yellowgreen;
+  color: white;
+  font-weight: 500;
 }
-.submit-button:hover{
+.submit-button:hover {
   cursor: pointer;
 }
-.newgame-button:hover{
+.newgame-button:hover {
   cursor: pointer;
+  transition: 0.4s ease-in-out;
+  background-color: whitesmoke;
+  color: black;
 }
-.username{
+.username {
   color: yellowgreen;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
-.congrats{
+.congrats {
   color: yellowgreen;
 }
-.winner{
+.winner {
   color: rgb(176, 19, 233);
 }
-.winner-section{
+.winner-section {
   color: black;
   text-align: center;
-background-color: whitesmoke;
-height: 150px;
-width: 400px;
-border-radius: 10px;
-padding: 10px;
+  background-color: whitesmoke;
+  height: 150px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
 }
-.guess-left{
+.guess-left {
   padding-left: 30px;
 }
