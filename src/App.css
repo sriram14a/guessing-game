@@ -40,13 +40,13 @@
   color: yellowgreen;
 }
 .winner{
-  color: black;
+  color: rgb(176, 19, 233);
 }
 .winner-section{
   color: black;
   text-align: center;
 background-color: whitesmoke;
-height: 200px;
+height: 150px;
 width: 400px;
 border-radius: 10px;
 padding: 10px;

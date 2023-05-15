@@ -79,7 +79,7 @@ function App() {
       setShow(!show);
       setDisable(true);
 
-      fetch(`${API}/user/userdetails/${name}`, {
+      fetch(`${API}/user/winner`, {
         method: "POST",
         crossDomain: true,
         headers: {
@@ -88,6 +88,7 @@ function App() {
           "Access-Control-Allow-Origin": "*",
         },
         body: JSON.stringify({
+          name:name,
           guess: guess + 1,
         }),
       });
@@ -138,9 +139,9 @@ function App() {
           CONGRATULATIONS YOU WON....
         </h2>
 
-        {/* <div className="winner-section">
+        <div className="winner-section">
           <Winner/>
-        </div> */}
+        </div>
       </div>
     </div>
   );
